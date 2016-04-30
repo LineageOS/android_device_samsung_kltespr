@@ -68,8 +68,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     if (strstr(bootloader, "G900P")) {
         /* kltespr */
-        property_set("ro.build.fingerprint", "samsung/kltespr/kltespr:4.4.2/KOT49H/G900PVPU1ANCB:user/release-keys");
-        property_set("ro.build.description", "kltespr-user 4.4.2 KOT49H G900PVPU1ANCB release-keys");
+        property_set("ro.build.fingerprint", "samsung/kltespr/kltespr:6.0.1/MMB29M/G900PVPU3CPCA:user/release-keys");
+        property_set("ro.build.description", "kltespr-user 6.0.1 MMB29M G900PVPU3CPCA release-keys");
         property_set("ro.product.model", "SM-G900P");
         property_set("ro.product.device", "kltespr");
         property_set("telephony.sms.pseudo_multipart", "1");
