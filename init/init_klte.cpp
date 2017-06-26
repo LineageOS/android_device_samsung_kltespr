@@ -59,10 +59,10 @@ void init_target_properties()
 
     if (bootloader.find("G900P") == 0) {
         /* kltespr */
-        property_set("ro.build.fingerprint", "samsung/kltespr/kltespr:6.0.1/MMB29M/G900PVPS3CQD1:user/release-keys");
-        property_set("ro.build.description", "kltespr-user 6.0.1 MMB29M G900PVPS3CQD1 release-keys");
-        property_set("ro.product.model", "SM-G900P");
-        property_set("ro.product.device", "kltespr");
+        property_override("ro.build.fingerprint", "samsung/kltespr/kltespr:6.0.1/MMB29M/G900PVPS3CQD1:user/release-keys");
+        property_override("ro.build.description", "kltespr-user 6.0.1 MMB29M G900PVPS3CQD1 release-keys");
+        property_override("ro.product.model", "SM-G900P");
+        property_override("ro.product.device", "kltespr");
         property_set("telephony.sms.pseudo_multipart", "1");
         cdma_properties("1", "310120", "Sprint");
     }
