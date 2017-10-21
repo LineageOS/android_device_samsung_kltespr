@@ -4,14 +4,6 @@ vendor/firmware/bcm2079xB4_pre_firmware.ncd
 vendor/firmware/bcm2079xB5_firmware.ncd
 vendor/firmware/bcm2079xB5_pre_firmware.ncd
 
-# Radio
-bin/efsks
-bin/ks
-bin/qcks
-bin/qmuxd
-bin/rfs_access
-bin/rild
-bin/rmt_storage
-lib/libril.so
-lib/libsec-ril.so
-vendor/lib/libril-qcril-hook-oem.so
+# Radio - pinned to G900PVPU3BOK4_G900PSPT3BOK4_SPR
+lib/libril.so|27c101223d96af69d9bbfa2db869cc161bd618a2
+lib/libsec-ril.so|408510e5d9d1935522aba554da81347f29932902
